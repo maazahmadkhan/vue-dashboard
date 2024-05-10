@@ -1,23 +1,14 @@
 <template>
   <v-container class="fill-height">
-    <v-responsive
-      class="align-centerfill-height mx-auto"
-      max-width="900"
-    >
-      <v-img
-        class="mb-4"
-        height="150"
-        src="@/assets/logo.png"
-      />
-
+    <v-responsive class="align-centerfill-height mx-auto" max-width="900">
+      <v-img class="mb-4" height="150" src="@/assets/logo.png" />
       <div class="text-center">
-        <div class="text-body-2 font-weight-light mb-n1">Welcome to</div>
-
+        <div class="text-body-2 font-weight-light mb-n1 text-red-500">
+          Welcome to
+        </div>
         <h1 class="text-h2 font-weight-bold">Vuetify</h1>
       </div>
-
       <div class="py-4" />
-
       <v-row>
         <v-col cols="12">
           <v-card
@@ -31,17 +22,16 @@
             <template #image>
               <v-img position="top right" />
             </template>
-
             <template #title>
               <h2 class="text-h5 font-weight-bold">Get started</h2>
             </template>
-
             <template #subtitle>
               <div class="text-subtitle-1">
-                Change this page by updating <v-kbd>{{ `<HelloWorld />` }}</v-kbd> in <v-kbd>components/HelloWorld.vue</v-kbd>.
+                Change this page by updating
+                <v-kbd>{{ `<HelloWorld />` }}</v-kbd> in
+                <v-kbd>components/HelloWorld.vue</v-kbd>.
               </div>
             </template>
-
             <v-overlay
               opacity=".12"
               scrim="primary"
@@ -51,7 +41,6 @@
             />
           </v-card>
         </v-col>
-
         <v-col cols="6">
           <v-card
             append-icon="mdi-open-in-new"
@@ -75,7 +64,6 @@
             />
           </v-card>
         </v-col>
-
         <v-col cols="6">
           <v-card
             append-icon="mdi-open-in-new"
@@ -99,7 +87,6 @@
             />
           </v-card>
         </v-col>
-
         <v-col cols="6">
           <v-card
             append-icon="mdi-open-in-new"
@@ -123,7 +110,6 @@
             />
           </v-card>
         </v-col>
-
         <v-col cols="6">
           <v-card
             append-icon="mdi-open-in-new"
@@ -153,5 +139,5 @@
 </template>
 
 <script setup lang="ts">
-  //
+//
 </script>
